@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<head>
+    <title>Benim Sayfam</title>
+</head>
+<body style="background-image: linear-gradient(blue, purple);">
+    <style>
+        p,pre {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 45px;
+            text-align: center; 
+            transform: scale(1, -1);
+        }
+        pre {
+            color:fuchsia;
+        }
+        p {
+            color:deepskyblue;
+        }
+        counter {
+            position: fixed;
+            font-size: 45px;
+            font-family: monospace;
+            color:darkcyan;
+        }
+    </style>    
+    <iframe width="100" height="100" src="https://www.youtube.com/embed/wOMwO5T3yT4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <counter id=ElCount>0</counter>
+    <p style="position: fixed; left: 50%; transform: translate(-50%, 0);">-_-<br>-|O|-<br>-V-<br>^ ^</p>
+    <pre id=u>|      |<br>|      |<br>|      |<br>|      |<br>|      |<br>|      |<br>|      |<br>|      |<br>|      |<br>|      |<br>|      |<br>|      |<br>|      |<br>|      |<br>|      |<br>|      |<br>|      |<br>|      |<br>|      |<br>|      |<br>|      |<br>|      |<br>|      |<br>|      |<br>|      |<br>|      |<br>|      |<br>|      |<br>|      |<br>|      |<br>|      |<br>|      |<br>|      |<br>|      |<br>|      |<br>|      |<br>|      |<br>|      |<br>|      |<br>|      |<br>|      |<br>|      |<br>|      |<br></pre>
+    <script>
+        window.onscroll = function() {
+            document.getElementById("u").innerHTML += "|      |<br>";
+            var m = document.getElementById("ElCount").innerHTML;
+            document.getElementById("ElCount").innerHTML = (parseInt(m) + 1)
+
+        }
+    </script>
+</body>
