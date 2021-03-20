@@ -17,7 +17,9 @@
             color:deepskyblue;
         }
         counter {
-            position: fixed;
+            position: fixed; 
+            left: 50%; 
+            transform: translate(-50%, 0);
             font-size: 45px;
             font-family: monospace;
             color:darkcyan;
@@ -31,8 +33,8 @@
         }
     </style>    
     <h6 style="text-align: center;">-Made for entertainment by tvecdecay-</h6>
+    <counter id=ElCount>0<br></counter>
     <iframe width="100" height="100" src="https://www.youtube.com/embed/wOMwO5T3yT4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    <counter id=ElCount>0</counter>
     <p style="position: fixed; left: 50%; transform: translate(-50%, 0);">-_-<br>-|O|-<br>-V-<br>^ ^</p>
     <pre id=u>|      |<br>|      |<br>|      |<br>|      |<br>|      |<br>|      |<br>|      |<br>|      |<br>|      |<br>|      |<br>|      |<br>|      |<br>|      |<br>|      |<br>|      |<br>|      |<br>|      |<br>|      |<br>|      |<br>|      |<br>|      |<br>|      |<br>|      |<br>|      |<br>|      |<br>|      |<br>|      |<br>|      |<br>|      |<br>|      |<br>|      |<br>|      |<br>|      |<br>|      |<br>|      |<br>|      |<br>|      |<br>|      |<br>|      |<br>|      |<br>|      |<br>|      |<br>|      |<br></pre>
     <script>
@@ -40,7 +42,6 @@
             document.getElementById("u").innerHTML += "|      |<br>|      |<br>|      |<br>|      |<br>|      |<br>|      |<br>|      |<br>|      |<br>|      |<br>|      |<br>|      |<br>|      |<br>|      |<br>|      |<br>|      |<br>|      |<br>|      |<br>|      |<br>|      |<br>|      |<br>|      |<br>|      |<br>|      |<br>|      |<br>|      |<br>|      |<br>|      |<br>|      |<br>|      |<br>|      |<br>|      |<br>|      |<br>|      |<br>|      |<br>|      |<br>|      |<br>|      |<br>|      |<br>|      |<br>|      |<br>";
             var m = document.getElementById("ElCount").innerHTML;
             document.getElementById("ElCount").innerHTML = (parseInt(m) + 1)
-
         }
     </script>
 </body>
