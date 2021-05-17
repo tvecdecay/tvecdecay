@@ -1,8 +1,8 @@
 # tvecdecay.github.io
 <hr>
 
-```bash
-Welcome to my web-page
+```
+Welcome to my web-page!
 ```
 <hr>
 
